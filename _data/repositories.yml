@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - SorawitChok
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - SorawitChok/Neural-Network-from-scratch-in-Cpp
+  - SirawitC/NLP-based-music-processing-for-composer-classification
+  - SirawitC/Transformer_from_scratch_pytorch
+  - SorawitChok/Upload-files-fastapi
+  - SirawitC/Controllable-DCGAN-face-generation
+  - SorawitChok/Linear-Least-Square-Housholder-Transformation
+  - SorawitChok/Flappy-Bird-AI-using-GA
+  - SorawitChok/Stable-Diffusion-from-Scratch
