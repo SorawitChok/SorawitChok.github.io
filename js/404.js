@@ -68,6 +68,21 @@ window.addEventListener("scroll", function () {
   }
 });
 
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    const headerOffset = 80; // adjust this to match your sticky header height
+    const elementPosition = target.getBoundingClientRect().top + window.scrollY;
+    const offsetPosition = elementPosition - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
+  });
+});
+
 // Add some fun interactions
 document.querySelector(".error-icon").addEventListener("click", function () {
   this.style.animation = "none";
